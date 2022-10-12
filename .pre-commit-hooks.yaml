@@ -1,0 +1,7 @@
+- id: scalafmt
+  name: run scalafmt via coursier
+  description: "Runs the scalafmt code formatter on Scala and SBT files"
+  language: coursier
+  entry: scalafmt
+  pass_filenames: false
+  files: '\.s(cala)|(bt)$'
